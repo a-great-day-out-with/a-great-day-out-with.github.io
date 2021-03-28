@@ -5,8 +5,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Convert {
@@ -18,6 +20,9 @@ public class Convert {
                                      text-decoration: underline;
                                    }
                                    """;
+
+    private static final List<String> emojisToMirror = Arrays.asList("🚂", "🚡", "🚴‍♂️", "⛵");
+
     public static void main(String... args) throws Exception {
         if (args == null || args.length != 1) {
             System.out.println("Usage: java Convert.java <journey>");
@@ -60,9 +65,15 @@ public class Convert {
             content = content.replaceAll(entry.title(), entry.toLink());            
         }
 
+        // inject styles
         content = content.replace("</style>", styles + "</style>");
 
-        Files.write(target, content.getBytes(charset));
+        for(String emoji : emojisToMirror) {
+            Matcher matcher = Pattern.compile(">" + emoji).matcher(content);
+            System.out.println("Found: " + matcher.find() + " " + matcher.group());
+            content = matcher.replaceAll(" transform=\"scale(-1, 1)\">" + emoji);
+            Files.write(target, content.getBytes(charset));
+        }
 
         return target;
     }

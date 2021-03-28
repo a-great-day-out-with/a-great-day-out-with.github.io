@@ -3,8 +3,10 @@
 Kafka Streams in Action;https://www.manning.com/books/kafka-streams-in-action
 Kafka Summit Videos;https://kafka.apache.org/videos
 Kafka Tutorials;https://kafka-tutorials.confluent.io/
-
+Streaming Annotated;https://streamingannotated.substack.com/
+Kafka Monthly Digest;https://developer.ibm.com/profiles/mickael.maison/
 
 # Develop
 
 Quarkus;https://quarkus.io/guides/kafka-streams
+librdkafka;https://github.com/edenhill/librdkafka
