@@ -30,6 +30,9 @@ Mirus;https://github.com/salesforce/mirus
 
 Testcontainers;https://www.testcontainers.org/modules/kafka/
 Microcks;https://microcks.io/blog/apache-kafka-mocking-testing/
+Sangrenel;https://github.com/jamiealquiza/sangrenel
+Voluble;https://github.com/MichaelDrogalis/voluble
+kafka-streams-test-utils;https://kafka.apache.org/documentation/streams/developer-guide/testing.html
 
 # Run
 Banzai Cloud Kafka Operator;https://github.com/banzaicloud/kafka-operator
@@ -39,3 +42,8 @@ Burrow;https://github.com/linkedin/Burrow
 Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
 CMAK;https://github.com/yahoo/CMAK
 kafka-backup;https://github.com/itadventurer/kafka-backup
+Strimzi Kafka Bridge;https://strimzi.io/docs/bridge/latest/
+Confluent REST Proxy;https://docs.confluent.io/platform/current/kafka-rest/index.html
+Kafka-Pixy;https://github.com/mailgun/kafka-pixy
+topicctl;https://github.com/segmentio/topicctl
+DoctorK;https://github.com/pinterest/DoctorK
