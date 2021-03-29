@@ -5,7 +5,8 @@ Kafka Summit Videos;https://kafka.apache.org/videos
 Kafka Tutorials;https://kafka-tutorials.confluent.io/
 Streaming Annotated;https://streamingannotated.substack.com/
 Kafka Monthly Digest;https://developer.ibm.com/profiles/mickael.maison/
-
+The Log: What every software engineer should know...;https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+Why Kafka Is so Fast;https://medium.com/swlh/why-kafka-is-so-fast-bde0d987cd03
 # Develop
 
 Quarkus;https://quarkus.io/guides/kafka-streams
@@ -13,6 +14,7 @@ librdkafka;https://github.com/edenhill/librdkafka
 fast-data-dev;https://github.com/lensesio/fast-data-dev
 Sarama;https://github.com/Shopify/sarama
 kafka-go;https://github.com/segmentio/kafka-go
+Spring Cloud Stream;https://spring.io/projects/spring-cloud-stream
 
 # Integrate
 
@@ -29,3 +31,4 @@ Karamel;https://github.com/mgubaidullin/karamel
 Burrow;https://github.com/linkedin/Burrow
 Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
 CMAK;https://github.com/yahoo/CMAK
+kafka-backup;https://github.com/itadventurer/kafka-backup
