@@ -62,7 +62,7 @@ public class Convert {
         String content = new String(Files.readAllBytes(source), charset);
 
         for (Entry entry : entries) {
-            content = content.replaceAll(entry.title(), entry.toLink());            
+            content = content.replaceAll(">" + entry.title() + "</text>", ">" + entry.toLink() + "</text>");
         }
 
         // inject styles
