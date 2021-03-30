@@ -59,6 +59,11 @@ kafka-streams-test-utils;https://kafka.apache.org/documentation/streams/develope
 
 # Run
 ## Managed Services
+Aiven;https://aiven.io/kafka
+Confluent Cloud;https://docs.confluent.io/cloud/current/overview.html
+IBM Event Streams;https://www.ibm.com/cloud/event-streams
+Amazon MSK;https://aws.amazon.com/de/msk/
+CloudKarafka;https://www.cloudkarafka.com/
 
 ## Tools
 kafka-backup;https://github.com/itadventurer/kafka-backup
