@@ -13,6 +13,7 @@
       }
     a {
   text-decoration: underline;
+  fill: 0077cc;
 }
 </style>
   </defs>
