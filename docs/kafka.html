@@ -8,12 +8,25 @@
 
   <meta name="description" content="A Learning Journey for Apache Kafka">
   <meta name="author" content="Gunnar Morling">
+  <meta name="author" content="Hans-Peter Grahsl">
+
+  <script src="svg-pan-zoom.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 
 <body>
-  <div style="right: 50%; bottom: 50%; transform: translate(50%,50%); position: absolute; width:90%">
-    <object data="kafka.svg" type="image/svg+xml" style="width:100%; margin:0 auto;">
-    </object>
+  <div class="center-div">
+    <object id="journey" data="kafka.svg" type="image/svg+xml" style="width:100%; max-height: 100%; margin:0 auto;"></object>
   </div>
+
+  <script>
+    // Don't use window.onLoad like this in production, because it can only listen to one function.
+    window.onload = function() {
+      svgPanZoom('#journey', {
+        zoomEnabled: true,
+        controlIconsEnabled: true
+      });
+    };
+  </script>
 </body>
 </html>
