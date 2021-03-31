@@ -18,6 +18,7 @@ public class Convert {
     private static String styles = """
                                    a {
                                      text-decoration: underline;
+                                     fill: 0077cc;
                                    }
                                    """;
 
