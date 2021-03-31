@@ -12,6 +12,7 @@ Kafka for Engineers;https://levelup.gitconnected.com/kafka-for-engineers-975feae
 Kafka Streams in Action;https://www.manning.com/books/kafka-streams-in-action
 Designing Data-Intensive Applications;https://dataintensive.net/
 Kafka: The Definitive Guide;https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/
+Streaming Systems;http://streamingsystems.net/
 ## Tutorials & Examples
 Kafka Tutorials;https://kafka-tutorials.confluent.io/
 Confluent Examples;https://github.com/confluentinc/examples/
@@ -35,6 +36,9 @@ Sarama;https://github.com/Shopify/sarama
 kafka-go;https://github.com/segmentio/kafka-go
 ## Java APIs
 Spring Cloud Stream;https://spring.io/projects/spring-cloud-stream
+Reactor Kafka;https://projectreactor.io/docs/kafka/release/reference/
+MicroProfile Reactive Messaging;https://download.eclipse.org/microprofile/microprofile-reactive-messaging-1.0/microprofile-reactive-messaging-spec.html
+Alpakka Kafka;https://doc.akka.io/docs/alpakka-kafka/current/
 
 # Integrate
 ## Replication
@@ -47,6 +51,11 @@ Maxwell Daemon;http://maxwells-daemon.io/
 Apache Flink;https://flink.apache.org/
 ksqlDB;https://ksqldb.io/
 Kafka Streams;https://kafka.apache.org/27/documentation/streams/
+Apache Beam;https://beam.apache.org/
+Apache Spark;http://spark.apache.org/streaming/
+## Kafka Connect
+Connect Docs;https://kafka.apache.org/documentation/#connect_overview
+Confluent Hub;https://www.confluent.io/hub/
 
 # Test
 ## Infrastructure
@@ -64,6 +73,7 @@ Confluent Cloud;https://docs.confluent.io/cloud/current/overview.html
 IBM Event Streams;https://www.ibm.com/cloud/event-streams
 Amazon MSK;https://aws.amazon.com/de/msk/
 CloudKarafka;https://www.cloudkarafka.com/
+Azure HDInsight Kafka;https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction
 
 ## Tools
 kafka-backup;https://github.com/itadventurer/kafka-backup
@@ -94,3 +104,4 @@ Kafka-Pixy;https://github.com/mailgun/kafka-pixy
 ## Schema Registries
 Apicurio;https://www.apicur.io/registry/
 Confluent Schema Registry;https://docs.confluent.io/platform/current/schema-registry/index.html
+Karapace;https://github.com/aiven/karapace
