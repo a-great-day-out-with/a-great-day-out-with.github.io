@@ -72,8 +72,13 @@ public class Convert {
             Matcher matcher = Pattern.compile(">" + emoji).matcher(content);
             System.out.println("Found: " + matcher.find() + " " + matcher.group());
             content = matcher.replaceAll(" transform=\"scale(-1, 1)\">" + emoji);
-            Files.write(target, content.getBytes(charset));
         }
+
+        // twitter handles
+        content = content.replace("@gunnarmorling", "<a href=\"https://twitter.com/gunnarmorling\" target=\"_top\">@gunnarmorling</a>");
+        content = content.replace("@hpgrahsl", "<a href=\"https://twitter.com/hpgrahsl\" target=\"_top\">@hpgrahsl</a>");
+
+        Files.write(target, content.getBytes(charset));
 
         return target;
     }
