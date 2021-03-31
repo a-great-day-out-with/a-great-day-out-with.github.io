@@ -15,7 +15,7 @@ Suggestions for additions are highly appreciated, but the final decision about i
 
 ## Build
 
-* Load _kafka.excalidraw_ into [excalidraw.com](excalidraw.com), export as SVG to _kafka.svg_.
+* Load _kafka.excalidraw_ into [excalidraw.com](https://excalidraw.com), export as SVG to _kafka.svg_.
 * Add/adjust links in _kafka-links.csv_
 * Process the SVG file: `java Convert.java kafka`
 
