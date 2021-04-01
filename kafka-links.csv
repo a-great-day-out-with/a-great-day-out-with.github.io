@@ -18,10 +18,12 @@ Kafka Tutorials;https://kafka-tutorials.confluent.io/
 Confluent Examples;https://github.com/confluentinc/examples/
 Debezium Examples;https://github.com/debezium/debezium-examples/
 ## Community
-Apache Kafka mailing lists;https://kafka.apache.org/contact
+Mailing Lists;https://kafka.apache.org/contact
 Confluent Community Forum;https://forum.confluent.io/
 Reddit;https://www.reddit.com/r/apachekafka/
 StackOverflow;https://stackoverflow.com/questions/tagged/apache-kafka
+Source Code;https://github.com/apache/kafka
+KIPs;https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals
 
 # Develop
 ## Key Concepts
