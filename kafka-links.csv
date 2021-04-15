@@ -112,3 +112,4 @@ Kafka-Pixy;https://github.com/mailgun/kafka-pixy
 Apicurio;https://www.apicur.io/registry/
 Confluent Schema Registry;https://docs.confluent.io/platform/current/schema-registry/index.html
 Karapace;https://github.com/aiven/karapace
+Tools for Apache Kafka;https://github.com/jlandersen/vscode-kafka
