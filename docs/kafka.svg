@@ -11,9 +11,9 @@
         font-family: "Cascadia";
         src: url("https://excalidraw.com/Cascadia.woff2");
       }
-    a {
+    a, a:visited {
   text-decoration: underline;
-  fill: 0077cc;
+  fill: #0077cc;
 }
 </style>
   </defs>
