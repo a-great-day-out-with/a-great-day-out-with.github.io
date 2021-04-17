@@ -49,6 +49,8 @@ Spring Cloud Stream;https://spring.io/projects/spring-cloud-stream
 Reactor Kafka;https://projectreactor.io/docs/kafka/release/reference/
 MicroProfile Reactive Messaging;https://download.eclipse.org/microprofile/microprofile-reactive-messaging-1.0/microprofile-reactive-messaging-spec.html
 Alpakka Kafka;https://doc.akka.io/docs/alpakka-kafka/current/
+## IDE
+Tools for Apache Kafka;https://github.com/jlandersen/vscode-kafka
 
 # Integrate
 ## Replication
