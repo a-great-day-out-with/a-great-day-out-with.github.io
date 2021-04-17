@@ -19,7 +19,7 @@ Kafka Tutorials;https://kafka-tutorials.confluent.io/
 Confluent Examples;https://github.com/confluentinc/examples/
 Debezium Examples;https://github.com/debezium/debezium-examples/
 ## Online Courses
-Learn Apache Kafka for Beginners v2;https://links.datacumulus.com/apache-kafka-coupon
+Learn Apache Kafka for Beginners v2;https://www.udemy.com/course/apache-kafka/?couponCode=APR_21_GET_STARTED
 ## Community
 Mailing Lists;https://kafka.apache.org/contact
 Confluent Community Forum;https://forum.confluent.io/
@@ -49,8 +49,8 @@ Spring Cloud Stream;https://spring.io/projects/spring-cloud-stream
 Reactor Kafka;https://projectreactor.io/docs/kafka/release/reference/
 MicroProfile Reactive Messaging;https://download.eclipse.org/microprofile/microprofile-reactive-messaging-1.0/microprofile-reactive-messaging-spec.html
 Alpakka Kafka;https://doc.akka.io/docs/alpakka-kafka/current/
-## IDE
-Tools for Apache Kafka;https://github.com/jlandersen/vscode-kafka
+## IDEs
+VS Code Tools for Apache Kafka;https://github.com/jlandersen/vscode-kafka
 
 # Integrate
 ## Replication
@@ -90,13 +90,15 @@ Azure HDInsight Kafka;https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apa
 ## Tools
 kafka-backup;https://github.com/itadventurer/kafka-backup
 CMAK;https://github.com/yahoo/CMAK
-Burrow;https://github.com/linkedin/Burrow
 DoctorK;https://github.com/pinterest/DoctorK
 CruiseControl;https://github.com/linkedin/cruise-control
-kafkacat;https://github.com/edenhill/kafkacat
+### Monitoring
 Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
-topicctl;https://github.com/segmentio/topicctl
 Xinfra Monitor;https://github.com/linkedin/kafka-monitor
+Burrow;https://github.com/linkedin/Burrow
+### CLI
+kafkacat;https://github.com/edenhill/kafkacat
+topicctl;https://github.com/segmentio/topicctl
 ## k8s Operators
 Confluent Operator;https://docs.confluent.io/operator/current/overview.html
 Banzai Cloud Kafka Operator;https://github.com/banzaicloud/kafka-operator
