@@ -20,6 +20,9 @@ public class Convert {
                                      text-decoration: underline;
                                      fill: 0077cc;
                                    }
+                                   a:visited {
+                                    color: 0077cc;
+                                   }
                                    """;
 
     private static final List<String> emojisToMirror = Arrays.asList("🚂", "🚡", "🚴‍♂️", "⛵");
@@ -101,7 +104,7 @@ public class Convert {
     public static record Entry(String title, String url) {
 
         public String toLink() {
-            return "<a href=\"" + url + "\" target=\"_top\">" + title + "</a>";
+            return "<a href=\"" + url + "\" target=\"_blank\">" + title + "</a>";
         }
     }
 }
