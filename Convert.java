@@ -16,9 +16,9 @@ public class Convert {
     private static final Pattern SEPARATOR = Pattern.compile(";");
 
     private static String styles = """
-                                   a {
+                                   a, a:visited {
                                      text-decoration: underline;
-                                     fill: 0077cc;
+                                     fill: #0077cc;
                                    }
                                    """;
 
