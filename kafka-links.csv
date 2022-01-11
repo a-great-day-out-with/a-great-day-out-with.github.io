@@ -3,7 +3,7 @@
 Kafka Summit Videos;https://kafka.apache.org/videos
 ## Newsletters
 Streaming Annotated;https://streamingannotated.substack.com/archive
-Kafka Monthly Digest;https://developer.ibm.com/profiles/mickael.maison/
+Kafka Monthly Digest;https://developers.redhat.com/author/mickael-maison
 ## Blog Posts
 The Log: What every software engineer should know...;https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 Why Kafka Is so Fast;https://medium.com/swlh/why-kafka-is-so-fast-bde0d987cd03
@@ -30,7 +30,7 @@ KIPs;https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposa
 
 # Develop
 ## Key Concepts
-Log Compaction;https://kafka.apache.org/27/documentation.html#compaction
+Log Compaction;https://kafka.apache.org/documentation.html#compaction
 Consumer Groups;https://docs.confluent.io/platform/current/clients/consumer.html#consumer-groups
 Partitioning;https://kafka.apache.org/documentation.html#intro_concepts_and_terms
 ## Kafka Streams Runtimes
@@ -62,7 +62,7 @@ Maxwell Daemon;http://maxwells-daemon.io/
 ## Stream Processing
 Apache Flink;https://flink.apache.org/
 ksqlDB;https://ksqldb.io/
-Kafka Streams;https://kafka.apache.org/27/documentation/streams/
+Kafka Streams;https://kafka.apache.org/documentation/streams/
 Apache Beam;https://beam.apache.org/
 Apache Spark;http://spark.apache.org/streaming/
 ## Kafka Connect
@@ -83,7 +83,7 @@ kafka-streams-test-utils;https://kafka.apache.org/documentation/streams/develope
 Aiven;https://aiven.io/kafka
 Confluent Cloud;https://docs.confluent.io/cloud/current/overview.html
 IBM Event Streams;https://www.ibm.com/cloud/event-streams
-Amazon MSK;https://aws.amazon.com/de/msk/
+Amazon MSK;https://aws.amazon.com/msk/
 CloudKarafka;https://www.cloudkarafka.com/
 Azure HDInsight Kafka;https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction
 
