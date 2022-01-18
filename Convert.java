@@ -78,7 +78,8 @@ public class Convert {
         // twitter handles
         content = content.replace("@gunnarmorling", "<a href=\"https://twitter.com/gunnarmorling\" target=\"_top\">@gunnarmorling</a>");
         content = content.replace("@hpgrahsl", "<a href=\"https://twitter.com/hpgrahsl\" target=\"_top\">@hpgrahsl</a>");
-
+        // github repo
+        content = content.replace("https://bit.ly/journey4kafka", "<a href=\"https://bit.ly/journey4kafka\" target=\"_top\">https://bit.ly/journey4kafka</a>");
         Files.write(target, content.getBytes(charset));
 
         return target;

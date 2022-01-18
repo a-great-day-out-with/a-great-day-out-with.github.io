@@ -103,6 +103,7 @@ topicctl;https://github.com/segmentio/topicctl
 kaf;https://github.com/birdayz/kaf
 kcli;https://github.com/cswank/kcli
 kafkactl;https://github.com/deviceinsight/kafkactl
+kcctl;https://github.com/kcctl/kcctl
 ## k8s Operators
 Confluent Operator;https://docs.confluent.io/operator/current/overview.html
 Banzai Cloud Kafka Operator;https://github.com/banzaicloud/kafka-operator
