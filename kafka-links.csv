@@ -117,7 +117,6 @@ Conduktor;https://www.conduktor.io/
 Strimzi Kafka Bridge;https://strimzi.io/docs/bridge/latest/
 Confluent REST Proxy;https://docs.confluent.io/platform/current/kafka-rest/index.html
 Kafka-Pixy;https://github.com/mailgun/kafka-pixy
-Kong Kafka Upstream;https://docs.konghq.com/hub/kong-inc/kafka-upstream/
 ## Schema Registries
 Apicurio;https://www.apicur.io/registry/
 Confluent Schema Registry;https://docs.confluent.io/platform/current/schema-registry/index.html
