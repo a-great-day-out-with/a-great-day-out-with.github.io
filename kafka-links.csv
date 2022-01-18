@@ -14,6 +14,7 @@ Designing Data-Intensive Applications;https://dataintensive.net/
 Kafka: The Definitive Guide;https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/
 Streaming Systems;http://streamingsystems.net/
 Designing Event-Driven Systems;https://learning.oreilly.com/library/view/designing-event-driven-systems/9781492038252/
+Kafka In Action;https://www.manning.com/books/kafka-in-action
 ## Tutorials & Examples
 Kafka Tutorials;https://kafka-tutorials.confluent.io/
 Confluent Examples;https://github.com/confluentinc/examples/
@@ -30,7 +31,7 @@ KIPs;https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposa
 
 # Develop
 ## Key Concepts
-Log Compaction;https://kafka.apache.org/27/documentation.html#compaction
+Log Compaction;https://kafka.apache.org/documentation.html#compaction
 Consumer Groups;https://docs.confluent.io/platform/current/clients/consumer.html#consumer-groups
 Partitioning;https://kafka.apache.org/documentation.html#intro_concepts_and_terms
 ## Kafka Streams Runtimes
@@ -62,7 +63,7 @@ Maxwell Daemon;http://maxwells-daemon.io/
 ## Stream Processing
 Apache Flink;https://flink.apache.org/
 ksqlDB;https://ksqldb.io/
-Kafka Streams;https://kafka.apache.org/27/documentation/streams/
+Kafka Streams;https://kafka.apache.org/documentation/streams/
 Apache Beam;https://beam.apache.org/
 Apache Spark;http://spark.apache.org/streaming/
 ## Kafka Connect
@@ -99,6 +100,8 @@ Burrow;https://github.com/linkedin/Burrow
 ### CLI
 kafkacat;https://github.com/edenhill/kafkacat
 topicctl;https://github.com/segmentio/topicctl
+kaf;https://github.com/birdayz/kaf
+kcli;https://github.com/cswank/kcli
 kafkactl;https://github.com/deviceinsight/kafkactl
 ## k8s Operators
 Confluent Operator;https://docs.confluent.io/operator/current/overview.html
