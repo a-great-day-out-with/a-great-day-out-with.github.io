@@ -1709,7 +1709,7 @@
       "boundElementIds": [],
       "fontSize": 20,
       "fontFamily": 1,
-      "text": "kafkacat",
+      "text": "kcat",
       "baseline": 18,
       "textAlign": "right",
       "verticalAlign": "top"

@@ -86,7 +86,7 @@ CMAK;https://github.com/yahoo/CMAK
 Burrow;https://github.com/linkedin/Burrow
 DoctorK;https://github.com/pinterest/DoctorK
 CruiseControl;https://github.com/linkedin/cruise-control
-kafkacat;https://github.com/edenhill/kafkacat
+kcat;https://github.com/edenhill/kcat
 Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
 topicctl;https://github.com/segmentio/topicctl
 ## k8s Operators
