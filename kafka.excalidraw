@@ -1981,12 +1981,12 @@
       "updated": 1642593353620,
       "fontSize": 20,
       "fontFamily": 1,
-      "text": "kafkacat",
+      "text": "kcat",
       "baseline": 18,
       "textAlign": "right",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "kafkacat"
+      "originalText": "kcat"
     },
     {
       "type": "text",
