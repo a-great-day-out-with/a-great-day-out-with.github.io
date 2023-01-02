@@ -93,6 +93,7 @@ kafka-backup;https://github.com/itadventurer/kafka-backup
 CMAK;https://github.com/yahoo/CMAK
 DoctorK;https://github.com/pinterest/DoctorK
 CruiseControl;https://github.com/linkedin/cruise-control
+JulieOps;https://github.com/kafka-ops/julie
 ### Monitoring
 Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
 Xinfra Monitor;https://github.com/linkedin/kafka-monitor
