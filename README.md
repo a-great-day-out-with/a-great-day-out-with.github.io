@@ -47,7 +47,7 @@ _NOTE: The core maintainers will do their best to make all changes to graphical 
 
 ### The more involved way:
 
-1. add/modify links in the `<journey_folder>/links.csv` file and create a PR
+1. add/modify links in the `<journey_folder>/links.csv` file
 2. load `<journey_folder>/illustration.excalidraw` into [excalidraw.com](https://excalidraw.com), make graphical changes if needed and export an SVG file into `<journey_folder>/exported.svg`
 3. run java converter tool `java Convert.java <journey>` which processes the `<journey_folder>/exported.svg` and writes the final result into `docs/<journey_folder>/generated.svg`
 4. open `docs/<journey_folder>/index.html` in your browser to verify if your changes are properly  reflected in the generated SVG file that's embedded in this HTML document.
