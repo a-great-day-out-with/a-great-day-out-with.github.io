@@ -98,7 +98,7 @@ Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
 Xinfra Monitor;https://github.com/linkedin/kafka-monitor
 Burrow;https://github.com/linkedin/Burrow
 ### CLI
-kafkacat;https://github.com/edenhill/kafkacat
+kcat;https://github.com/edenhill/kcat
 topicctl;https://github.com/segmentio/topicctl
 kaf;https://github.com/birdayz/kaf
 kcli;https://github.com/cswank/kcli
