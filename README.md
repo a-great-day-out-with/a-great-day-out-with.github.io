@@ -1,7 +1,7 @@
 # A Great Day Out With ...
 
 Curated learning journeys for technologies like:
-- [Apache Kafka](https://a-great-day-out-with.github.io/kafka.html)
+- [Apache Kafka](https://a-great-day-out-with.github.io/kafka/index.html)
 - TODO: your learning journeys for XYZ ;-)
 
 ## Philosophy
