@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <title>A Great Day Out With... MongoDB</title>
+
+  <meta name="description" content="A Learning Journey for MongoDB">
+  <meta name="author" content="Hans-Peter Grahsl">
+  <meta name="author" content="Arek Borucki">
+
+  <script src="../svg-pan-zoom.js"></script>
+</head>
+
+<body>
+  <div style="right: 50%; bottom: 50%; transform: translate(50%,50%); position: absolute; width:50%">
+    <object id="journey" data="generated.svg" type="image/svg+xml" style="width:100%; margin:0 auto;">
+    </object>
+  </div>
+
+  <script>
+    // Don't use window.onLoad like this in production, because it can only listen to one function.
+    window.onload = function() {
+      svgPanZoom('#journey', {
+        zoomEnabled: true,
+        controlIconsEnabled: true
+      });
+    };
+  </script>
+</body>
+</html>
