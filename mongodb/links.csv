@@ -12,19 +12,19 @@ MongoDB Fundamentals;https://www.amazon.com/MongoDB-Workshop-Interactive-Approac
 MongoDB Performance Tuning;https://www.amazon.com/MongoDB-Performance-Tuning-Optimizing-Applications/dp/1484268784/
 Practical MongoDB Aggregations Book;https://www.practical-mongodb-aggregations.com/
 ## Blog Posts
-Official MongoDB Blog;https://www.mongodb.com/blog
-MongoDB @ Medium;https://medium.com/tag/mongodb
-MongoDB @ Dev.to;https://dev.to/t/mongodb
+Official Blog;https://www.mongodb.com/blog
+Medium.com Stories;https://medium.com/tag/mongodb
+Dev.to Articles;https://dev.to/t/mongodb
 ## Online Courses
-Official MongoDB University Courses;https://learn.mongodb.com/catalog
-MongoDB Courses @ Udemy;https://www.udemy.com/courses/search/?q=mongodb
-MongoDB Courses @ Pluralsight;https://www.pluralsight.com/search?q=mongodb&categories=course&sort=average_rating
-MongoDB Courses @ Coursera;https://www.coursera.org/search?query=mongodb
+MongoDB University;https://learn.mongodb.com/catalog
+Udemy Courses;https://www.udemy.com/courses/search/?q=mongodb
+Pluralsight Courses;https://www.pluralsight.com/search?q=mongodb
+Coursera Courses;https://www.coursera.org/search?query=mongodb
 ## Certifications
-Developer Certification;https://university.mongodb.com/certification/developer/about
-Administrator Certification;https://university.mongodb.com/certification/dba/about
+Developer;https://university.mongodb.com/certification/developer/about
+Administrator;https://university.mongodb.com/certification/dba/about
 ## Community
-MongoDB Community Forums;https://www.mongodb.com/community/forums/
+Official Forums;https://www.mongodb.com/community/forums/
 Source Code;https://github.com/mongodb/mongo
 Issue Tracker;https://jira.mongodb.org/
 Reddit;https://www.reddit.com/r/mongodb/
@@ -34,105 +34,104 @@ ServerFault;https://serverfault.com/questions/tagged/mongodb
 ## A/V Streams
 Podcast;https://podcasts.mongodb.com/
 Twitch;https://www.twitch.tv/mongodb
-# Servers
-MongoDB Enterprise Advanced;https://www.mongodb.com/products/mongodb-enterprise-advanced
-MongoDB Community Edition;https://www.mongodb.com/docs/manual/administration/install-community
-Percona Server for MongoDB;https://www.percona.com/software/mongodb/percona-server-for-mongodb
 # Develop
+## Exercise
+Tutorials;https://www.mongodb.com/developer/tutorials/
+Examples;https://www.mongodb.com/developer/code-examples/
 ## Key Concepts
-The Document Model;https://www.mongodb.com/document-databases
+Document Model;https://www.mongodb.com/document-databases
+Indexing;https://www.mongodb.com/docs/manual/indexes/
 CRUD;https://www.mongodb.com/docs/manual/crud/
 Aggregations;https://www.mongodb.com/docs/manual/aggregation/
-Secondary Indexing;https://www.mongodb.com/docs/manual/indexes/
 Replication;https://www.mongodb.com/docs/manual/replication/
 Sharding;https://www.mongodb.com/docs/manual/sharding/
 Security;https://www.mongodb.com/docs/manual/administration/security-checklist/
-## Drivers/APIs
+## Drivers / APIs
 Java;https://www.mongodb.com/docs/drivers/java-drivers/
 .NET;https://www.mongodb.com/docs/drivers/csharp/
 Python;https://www.mongodb.com/docs/drivers/python/
-Go;https://www.mongodb.com/docs/drivers/go/current/
+GO;https://www.mongodb.com/docs/drivers/go/current/
 Rust;https://www.mongodb.com/docs/drivers/rust/
 Node;https://www.mongodb.com/docs/drivers/node/current/
-## Code Editors / GUIs
+## Editors / GUIs
 Compass;https://www.mongodb.com/products/compass
 MongoDB for VS Code;https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
 Studio 3T;https://studio3t.com/
 dbKoda;https://github.com/SouthbankSoftware/dbkoda
 mingo;https://mingo.io/
 ## CLIs 
-mongosh;https://www.mongodb.com/docs/mongodb-shell/
-mongocli;https://www.mongodb.com/docs/mongocli/stable/
-atlas cli;https://www.mongodb.com/docs/atlas/cli/stable/
+Mongo Shell;https://www.mongodb.com/docs/mongodb-shell/
+Mongo CLI;https://www.mongodb.com/docs/mongocli/stable/
+Atlas CLI;https://www.mongodb.com/docs/atlas/cli/stable/
 ## Data / HTTP access
 Data API;https://www.mongodb.com/docs/atlas/app-services/data-api/
 Realm Web SDK;https://www.mongodb.com/docs/realm/web/
 # Integrate
 ## Change Data Capture
-Offical MongoDB Source Connector for Apache Kafka;https://www.mongodb.com/docs/kafka-connector/current/source-connector/
-Debezium connector for MongoDB;https://debezium.io/documentation/reference/stable/connectors/mongodb.html
-Flink MongoDB CDC Connector;https://ververica.github.io/flink-cdc-connectors/release-2.1/content/connectors/mongodb-cdc.html
-## Connectors
-Offical MongoDB Source Connector for Apache Kafka;https://www.mongodb.com/docs/kafka-connector/current/source-connector/
-Debezium connector for MongoDB;https://debezium.io/documentation/reference/stable/connectors/mongodb.html
+MongoDB Connector for Apache Kafka;https://www.mongodb.com/docs/kafka-connector/current/
+Debezium Connector for MongoDB;https://debezium.io/documentation/reference/stable/connectors/mongodb.html
 Flink MongoDB CDC Connector;https://ververica.github.io/flink-cdc-connectors/master/content/connectors/mongodb-cdc.html
+## Connectors
+Spark Connector;https://www.mongodb.com/docs/spark-connector/current/
+BI Connector;https://www.mongodb.com/docs/bi-connector/current/
+Atlas Data Lake;https://www.mongodb.com/docs/datalake/
 # Testing
 ## Infrastructure
 Testcontainers;https://www.testcontainers.org/modules/databases/mongodb/
 ## Tools
-MongoDB Random Data Generator (Go);https://github.com/feliixx/mgodatagen
-Workload Driver for MongoDB (Java);https://github.com/johnlpage/POCDriver
-# DevOps
+Random Data Generator;https://github.com/feliixx/mgodatagen
+Workload Driver;https://github.com/johnlpage/POCDriver
+# Run
+## Servers
+MongoDB Enterprise Advanced;https://www.mongodb.com/products/mongodb-enterprise-advanced
+MongoDB Community Edition;https://www.mongodb.com/docs/manual/administration/install-community
+Percona Server for MongoDB;https://www.percona.com/software/mongodb/percona-server-for-mongodb
+## DevOps
 Terraform MongoDB Atlas Provider;https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs
 Pulumi MongoDB Atlas Provider;https://www.pulumi.com/registry/packages/mongodbatlas/
-Ansible MongoDB Roles, Modules, and Plugins;https://docs.ansible.com/ansible/latest/collections/community/mongodb/
-Pulumi DigitalOcean MongoDB cluster;https://www.pulumi.com/registry/packages/digitalocean/api-docs/databasecluster/#create-a-new-mongodb-database-cluster
-Terraform DigitalOcean MongoDB cluster;https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/database_cluster#create-a-new-mongodb-database-cluster
-KEDA MongoDB scaler;https://keda.sh/docs/2.8/scalers/mongodb/
-# Run
+Ansible Roles/Modules/Plugins;https://docs.ansible.com/ansible/latest/collections/community/mongodb
+KEDA MongoDB Scaler;https://keda.sh/docs/latest/scalers/mongodb/
 ## Managed Services
 MongoDB Atlas;https://www.mongodb.com/atlas/database
 IBM Cloud Database for MongoDB;https://www.ibm.com/cloud/databases-for-mongodb
-OVHcloud;https://www.ovhcloud.com/en/public-cloud/mongodb/
 ObjectRocket for MongoDB;https://www.objectrocket.com/managed-mongodb/
 ApsaraDB for MongoDB;https://www.alibabacloud.com/product/apsaradb-for-mongodb
-MongoDB on AWS;https://aws.amazon.com/quickstart/architecture/mongodb/
-DigitalOcean MongoDB cluster;https://www.mongodb.com/partners/digitalocean
+MongoDB on AWS;https://aws.amazon.com/solutions/partners/mongodb/
+DigitalOcean Managed MongoDB;https://www.mongodb.com/partners/digitalocean
 ## Lookalikes
-Azure CosmosDB for MongoDB API;https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/mongodb-introduction
+Azure CosmosDB for MongoDB;https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/mongodb-introduction
 Amazon DocumentDB;https://aws.amazon.com/documentdb/
+FerretDB;https://www.ferretdb.io/
 ## Tooling
+### Operations
 MongoDB Ops Manager;https://www.mongodb.com/products/ops-manager
 MongoDB Cluster-to-Cluster Sync;https://www.mongodb.com/docs/cluster-to-cluster-sync/current/
 MongoDB Database Secrets Engine;https://www.vaultproject.io/docs/secrets/databases/mongodb
-## DB Tools
-### Binary Import/Export
+### Import/Export
 mongodump;https://www.mongodb.com/docs/database-tools/mongodump/#mongodb-binary-bin.mongodump
 mongorestore;https://www.mongodb.com/docs/database-tools/mongorestore/#mongodb-binary-bin.mongorestore
 bsondump;https://www.mongodb.com/docs/database-tools/bsondump/#mongodb-binary-bin.bsondump
-### Data Import/Export
 mongoimport;https://www.mongodb.com/docs/database-tools/mongoimport/#mongodb-binary-bin.mongoimport
 mongoexport;https://www.mongodb.com/docs/database-tools/mongoexport/#mongodb-binary-bin.mongoexport
 ### Backup/Restore
 MongoDB Ops Manager;https://www.mongodb.com/products/ops-manager
-Percona backup for MongoDB;https://www.percona.com/software/mongodb/percona-backup-for-mongodb
-### Diagnostic Tools
+Percona Backup for MongoDB;https://www.percona.com/software/mongodb/percona-backup-for-mongodb
+### Diagnostics
 mongostat;https://www.mongodb.com/docs/database-tools/mongostat/#mongodb-binary-bin.mongostat
 mongotop;https://www.mongodb.com/docs/database-tools/mongotop/#mongodb-binary-bin.mongotop
-## Kubernetes
-MongoDB Enterprise Kubernetes Operator;https://www.mongodb.com/docs/kubernetes-operator/master/
-Atlas Kubernetes Operator;https://www.mongodb.com/kubernetes/atlas-operator
-MongoDB Community Kubernetes Operator;https://github.com/mongodb/mongodb-kubernetes-operator
-Percona Kubernetes Operator for MongoDB;https://www.percona.com/doc/kubernetes-operator-for-psmongodb/index.html
-Bitnami Helm chart;https://github.com/bitnami/charts/tree/master/bitnami/mongodb
-KubeDB;https://github.com/kubedb
-## Monitoring/Alerting
-MongoDB Ops Manager;https://www.mongodb.com/products/ops-manager
-MongoDB Prometheus Exporter;https://github.com/percona/mongodb_exporter
-Grafana MongoDB dashboards;https://github.com/percona/grafana-dashboards
-MongoDB DataDog;https://docs.datadoghq.com/integrations/mongo/?tab=standalone
-Datadog and MongoDB Atlas;https://www.mongodb.com/partners/datadog
-Solarwinds;https://www.solarwinds.com/database-performance-monitor/integrations/mongodb-monitoring
-Percona PMM server;https://docs.percona.com/percona-platform/connect-pmm.html
-Keyhole;https://www.mongodb.com/blog/post/peek-at-your-mongodb-clusters-like-a-pro-with-keyhole-part-1
 mtools;https://github.com/rueckstiess/mtools
+Keyhole;https://github.com/simagix/keyhole
+## Kubernetes
+MongoDB Atlas Operator;https://www.mongodb.com/kubernetes/atlas-operator
+MongoDB Enterprise Operator;https://www.mongodb.com/docs/kubernetes-operator/master/
+MongoDB Community Operator;https://github.com/mongodb/mongodb-kubernetes-operator
+Percona Operator for MongoDB;https://www.percona.com/doc/kubernetes-operator-for-psmongodb/index.html
+Bitnami Helm Chart;https://github.com/bitnami/charts/tree/master/bitnami/mongodb
+KubeDB Operator for MongoDB;https://kubedb.com/kubernetes/databases/run-and-manage-mongodb-on-kubernetes/
+## Monitoring
+MongoDB Ops Manager;https://www.mongodb.com/products/ops-manager
+Prometheus Exporter;https://github.com/percona/mongodb_exporter
+Grafana Dashboards;https://github.com/percona/grafana-dashboards
+Datadog Integration;https://docs.datadoghq.com/integrations/mongo/?tab=standalone
+Solarwinds DPM;https://www.solarwinds.com/database-performance-monitor/integrations/mongodb-monitoring
+PMM Server;https://docs.percona.com/percona-platform/connect-pmm.html
