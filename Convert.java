@@ -93,8 +93,10 @@ public class Convert {
             for(String emoji : emojisToMirror) {
                 System.out.println("Searching occurrences of emoji "+emoji+ " to mirror");
                 Matcher matcher = Pattern.compile(">" + emoji).matcher(content);
-                System.out.println("Found: " + matcher.find() + " " + matcher.group());
-                content = matcher.replaceAll(" transform=\"scale(-1, 1)\">" + emoji);
+                if(matcher.find()) {
+                    System.out.println("Found emoji: " + matcher.group());
+                    content = matcher.replaceAll(" transform=\"scale(-1, 1)\">" + emoji);
+                }
             }
         }
         
