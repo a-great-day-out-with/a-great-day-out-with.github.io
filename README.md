@@ -2,6 +2,7 @@
 
 Curated learning journeys for technologies like:
 - [Apache Kafka](https://a-great-day-out-with.github.io/kafka/index.html)
+- [MongoDB](https://a-great-day-out-with.github.io/mongodb/index.html)
 - TODO: your learning journeys for XYZ ;-)
 
 ## Philosophy
@@ -20,10 +21,10 @@ Suggestions for additions are highly appreciated, but the final decision about i
 All journey specific artefacts are supposed to live in their own separate folders, see e.g. the `kafka` folder.
 The following file naming conventions are important:
 
-- `illustration.exaclidraw` **[mandatory]**: The main artefact for drawing and artwork for a journey and can be created from scratch or loaded using [excalidraw.com](https://excalidraw.com)
-- `exported.svg` **[mandatory]**: The SVG version of the main artefact created by manually exporting your illustration file above from the excalidraw web UI
+- `illustration.exaclidraw` **[mandatory]**: The main artefact for drawing and artwork for a journey which can be created from scratch or loaded using [excalidraw.com](https://excalidraw.com).
+- `exported.svg` **[mandatory]**: The SVG version of the main artefact created by manually exporting your illustration file above from the excalidraw web UI.
 - `links.csv` **[mandatory]**: This file stores all URLs behind each textual element in the learning journey. Matching of text elements (drawing) and links (CSV file) is done by simple string replacements so make sure to get your names spelled correctly in both, the excalidraw and CSV file.
-- `config.properties` _[optional]_: This file allows to configure specific "post-processing" actions for generating the output artefacts. Currently the following three properties - all of which are optional themselves - can be defined and are picked up by the `Converter.java`
+- `config.properties` _[optional]_: This file allows to configure specific "post-processing" actions for generating the output artefacts. Currently the following three properties - all of which are optional themselves - can be defined and are picked up by the `Converter.java`.
 
     ```properties
     emojis.to.mirror=🚂;🚡;🚴‍♂️;⛵
