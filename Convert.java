@@ -107,14 +107,14 @@ public class Convert {
             List<String> twitterHandles = Arrays.stream(SEPARATOR.split(twitterHandleConfig))
                                             .map(String::trim).collect(Collectors.toList());
             for(String twitterHandle : twitterHandles) {
-                System.out.println("Replace twitter handle "+twitterHandle+" with HTML link to profile");
+                System.out.println("Replace twitter handle "+twitterHandle+" with link to profile");
                 content = content.replace(twitterHandle, "<a href=\"https://twitter.com/"+twitterHandle+"\" target=\"_top\">"+twitterHandle+"</a>");
             }
         }
         //repo URL
         String repoConfig = config.getProperty(CONFIG_KEY_REPO);
         if(repoConfig != null && !repoConfig.isBlank()) {
-            System.out.println("Replace repo URL with HTML link "+repoConfig+" with profile URL");
+            System.out.println("Replace repo URL with link "+repoConfig);
             content = content.replace(repoConfig, "<a href=\""+repoConfig+"\" target=\"_top\">"+repoConfig+"</a>");
         }
         Files.write(target, content.getBytes(charset));
