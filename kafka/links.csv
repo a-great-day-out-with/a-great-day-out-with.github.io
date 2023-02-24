@@ -45,6 +45,7 @@ librdkafka;https://github.com/edenhill/librdkafka
 fast-data-dev;https://github.com/lensesio/fast-data-dev
 Sarama;https://github.com/Shopify/sarama
 kafka-go;https://github.com/segmentio/kafka-go
+aiokafka;https://github.com/aio-libs/aiokafka
 ## Java APIs
 Spring Cloud Stream;https://spring.io/projects/spring-cloud-stream
 Reactor Kafka;https://projectreactor.io/docs/kafka/release/reference/
@@ -118,11 +119,13 @@ Karamel;https://github.com/mgubaidullin/karamel
 Kafdrop;https://github.com/obsidiandynamics/kafdrop
 AKHQ;https://github.com/tchiotludo/akhq
 Conduktor;https://www.conduktor.io/
+Klaw;https://www.klaw-project.io/
 ## HTTP Access
 Strimzi Kafka Bridge;https://strimzi.io/docs/bridge/latest/
 Confluent REST Proxy;https://docs.confluent.io/platform/current/kafka-rest/index.html
 Kafka-Pixy;https://github.com/mailgun/kafka-pixy
+Karapace;https://www.karapace.io/
 ## Schema Registries
 Apicurio;https://www.apicur.io/registry/
 Confluent Schema Registry;https://docs.confluent.io/platform/current/schema-registry/index.html
-Karapace;https://github.com/aiven/karapace
+Karapace;https://www.karapace.io/
