@@ -15,6 +15,7 @@ Kafka: The Definitive Guide;https://learning.oreilly.com/library/view/kafka-the-
 Streaming Systems;http://streamingsystems.net/
 Designing Event-Driven Systems;https://learning.oreilly.com/library/view/designing-event-driven-systems/9781492038252/
 Kafka In Action;https://www.manning.com/books/kafka-in-action
+Kafka Connect;https://www.oreilly.com/library/view/kafka-connect/9781098126520/
 ## Tutorials & Examples
 Kafka Tutorials;https://kafka-tutorials.confluent.io/
 Confluent Examples;https://github.com/confluentinc/examples/
