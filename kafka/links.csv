@@ -1,8 +1,7 @@
 # Learn
 ## Talks
-Kafka Summit Videos;https://kafka.apache.org/videos
+Kafka Summit / Current Sessions;https://www.kafka-summit.org/past-events
 ## Newsletters
-Streaming Annotated;https://streamingannotated.substack.com/archive
 Kafka Monthly Digest;https://developers.redhat.com/author/mickael-maison
 ## Blog Posts
 The Log: What every software engineer should know...;https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
@@ -11,16 +10,17 @@ Kafka for Engineers;https://levelup.gitconnected.com/kafka-for-engineers-975feae
 ## Books
 Kafka Streams in Action;https://www.manning.com/books/kafka-streams-in-action
 Designing Data-Intensive Applications;https://dataintensive.net/
-Kafka: The Definitive Guide;https://learning.oreilly.com/library/view/kafka-the-definitive/9781491936153/
+Kafka: The Definitive Guide;https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/
 Streaming Systems;http://streamingsystems.net/
-Designing Event-Driven Systems;https://learning.oreilly.com/library/view/designing-event-driven-systems/9781492038252/
+Designing Event-Driven Systems;https://www.oreilly.com/library/view/designing-event-driven-systems/9781492038252/
 Kafka In Action;https://www.manning.com/books/kafka-in-action
+Kafka Connect;https://www.oreilly.com/library/view/kafka-connect/9781098126520/
 ## Tutorials & Examples
-Kafka Tutorials;https://kafka-tutorials.confluent.io/
+Kafka Tutorials;https://developer.confluent.io/tutorials/
 Confluent Examples;https://github.com/confluentinc/examples/
 Debezium Examples;https://github.com/debezium/debezium-examples/
 ## Online Courses
-Learn Apache Kafka for Beginners v2;https://www.udemy.com/course/apache-kafka/?couponCode=APR_21_GET_STARTED
+Learn Apache Kafka for Beginners v3;https://www.udemy.com/course/apache-kafka/
 ## Community
 Mailing Lists;https://kafka.apache.org/contact
 Confluent Community Forum;https://forum.confluent.io/
@@ -37,13 +37,14 @@ Partitioning;https://kafka.apache.org/documentation.html#intro_concepts_and_term
 ## Kafka Streams Runtimes
 Quarkus;https://quarkus.io/guides/kafka-streams
 Azkarra Streams;https://www.azkarrastreams.io/
+Spring;https://docs.spring.io/spring-kafka/reference/streams.html
 ## Specs
 AsyncAPI;https://www.asyncapi.com/
 CloudEvents;https://cloudevents.io/
 ## Other Languages
-librdkafka;https://github.com/edenhill/librdkafka
+librdkafka;https://github.com/confluentinc/librdkafka
 fast-data-dev;https://github.com/lensesio/fast-data-dev
-Sarama;https://github.com/Shopify/sarama
+Sarama;https://github.com/IBM/sarama
 kafka-go;https://github.com/segmentio/kafka-go
 ## Java APIs
 Spring Cloud Stream;https://spring.io/projects/spring-cloud-stream
@@ -72,30 +73,29 @@ Confluent Hub;https://www.confluent.io/hub/
 
 # Test
 ## Infrastructure
-Testcontainers;https://www.testcontainers.org/modules/kafka/
+Testcontainers;https://java.testcontainers.org/modules/kafka/
 ## Tools
 Microcks;https://microcks.io/blog/apache-kafka-mocking-testing/
 Sangrenel;https://github.com/jamiealquiza/sangrenel
 Voluble;https://github.com/MichaelDrogalis/voluble
 kafka-streams-test-utils;https://kafka.apache.org/documentation/streams/developer-guide/testing.html
+ShadowTraffic;https://shadowtraffic.io/
 
 # Run
 ## Managed Services
 Aiven;https://aiven.io/kafka
 Confluent Cloud;https://docs.confluent.io/cloud/current/overview.html
-IBM Event Streams;https://www.ibm.com/cloud/event-streams
+IBM Event Streams;https://www.ibm.com/products/event-streams
 Amazon MSK;https://aws.amazon.com/msk/
 CloudKarafka;https://www.cloudkarafka.com/
-Azure HDInsight Kafka;https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction
-RHOSAK (Red Hat);https://www.redhat.com/en/technologies/cloud-computing/openshift/openshift-streams-for-apache-kafka
+Azure HDInsight Kafka;https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction
 ## Tools
 kafka-backup;https://github.com/itadventurer/kafka-backup
 CMAK;https://github.com/yahoo/CMAK
-DoctorK;https://github.com/pinterest/DoctorK
+Orion;https://github.com/pinterest/orion/blob/master/docs/Kafka/README.md
 CruiseControl;https://github.com/linkedin/cruise-control
 JulieOps;https://github.com/kafka-ops/julie
 ### Monitoring
-Kafka Lag Exporter;https://github.com/lightbend/kafka-lag-exporter
 Xinfra Monitor;https://github.com/linkedin/kafka-monitor
 Burrow;https://github.com/linkedin/Burrow
 ### CLI
@@ -107,17 +107,17 @@ kafkactl;https://github.com/deviceinsight/kafkactl
 kcctl;https://github.com/kcctl/kcctl
 ## k8s Operators
 Confluent Operator;https://docs.confluent.io/operator/current/overview.html
-Banzai Cloud Kafka Operator;https://github.com/banzaicloud/kafka-operator
+Koperator;https://github.com/banzaicloud/koperator
 ### Strimzi
 Strimzi;https://strimzi.io/
 Strimzi CLI;https://pypi.org/project/strimzi-kafka-cli/
-AMQ Streams;https://access.redhat.com/products/red-hat-amq#streams
+AMQ Streams;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/2.7
 ## UIs
-Kowl;https://github.com/cloudhut/kowl
+Redpanda Console;https://github.com/redpanda-data/console
 Karamel;https://github.com/mgubaidullin/karamel
 Kafdrop;https://github.com/obsidiandynamics/kafdrop
 AKHQ;https://github.com/tchiotludo/akhq
-Conduktor;https://www.conduktor.io/
+Conduktor Console;https://docs.conduktor.io/platform/#what-is-conduktor-console
 ## HTTP Access
 Strimzi Kafka Bridge;https://strimzi.io/docs/bridge/latest/
 Confluent REST Proxy;https://docs.confluent.io/platform/current/kafka-rest/index.html
@@ -125,4 +125,4 @@ Kafka-Pixy;https://github.com/mailgun/kafka-pixy
 ## Schema Registries
 Apicurio;https://www.apicur.io/registry/
 Confluent Schema Registry;https://docs.confluent.io/platform/current/schema-registry/index.html
-Karapace;https://github.com/aiven/karapace
+Karapace;https://www.karapace.io/
