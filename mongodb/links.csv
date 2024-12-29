@@ -65,7 +65,7 @@ Studio 3T;https://studio3t.com/
 mingo;https://mingo.io/
 MongoDB for Intellij Plugin;https://www.mongodb.com/products/tools/intellij
 ## CLIs 
-Mongo Shell;https://www.mongodb.com/docs/mongodb-shell/
+Mongo Shell (mongosh);https://www.mongodb.com/docs/mongodb-shell/
 Mongo CLI;https://www.mongodb.com/docs/mongocli/current/
 Atlas CLI;https://www.mongodb.com/docs/atlas/cli/current/
 # Integrate
@@ -99,6 +99,7 @@ ObjectRocket for MongoDB;https://www.objectrocket.com/managed-mongodb/
 ApsaraDB for MongoDB;https://www.alibabacloud.com/en/product/apsaradb-for-mongodb
 MongoDB on AWS;https://aws.amazon.com/partners/mongodb/
 DigitalOcean Managed MongoDB;https://www.mongodb.com/company/partners/digitalocean
+STACKIT MongoDB Flex;https://www.stackit.de/en/product/stackit-mongodb-flex/
 ## Lookalikes
 Azure CosmosDB for MongoDB;https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/
 Amazon DocumentDB;https://aws.amazon.com/documentdb/
