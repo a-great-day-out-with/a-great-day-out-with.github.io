@@ -71,6 +71,9 @@ Apache Spark;http://spark.apache.org/streaming/
 ## Kafka Connect
 Connect Docs;https://kafka.apache.org/documentation/#connect_overview
 Confluent Hub;https://www.confluent.io/hub/
+## Kafka Proxies
+Conduktor Gateway;https://docs.conduktor.io/guide/conduktor-in-production/deploy-artifacts/deploy-gateway
+Kroxylicious;https://kroxylicious.io
 
 # Test
 ## Infrastructure
