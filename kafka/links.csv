@@ -129,3 +129,6 @@ Karapace REST;https://www.karapace.io/
 Apicurio;https://www.apicur.io/registry/
 Confluent Schema Registry;https://docs.confluent.io/platform/current/schema-registry/index.html
 Karapace Schema Registry;https://www.karapace.io/
+## Kafka Proxies
+Conduktor Gateway;https://docs.conduktor.io/guide/conduktor-in-production/deploy-artifacts/deploy-gateway
+Kroxylicious;https://kroxylicious.io
