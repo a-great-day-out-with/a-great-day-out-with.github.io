@@ -96,6 +96,7 @@ CMAK;https://github.com/yahoo/CMAK
 Orion;https://github.com/pinterest/orion/blob/master/docs/Kafka/README.md
 CruiseControl;https://github.com/linkedin/cruise-control
 JulieOps;https://github.com/kafka-ops/julie
+Jikkou;https://www.jikkou.io/
 ### Monitoring
 Xinfra Monitor;https://github.com/linkedin/kafka-monitor
 Burrow;https://github.com/linkedin/Burrow
@@ -120,6 +121,7 @@ Kafdrop;https://github.com/obsidiandynamics/kafdrop
 AKHQ;https://github.com/tchiotludo/akhq
 Conduktor Console;https://docs.conduktor.io/platform/#what-is-conduktor-console
 Klaw;https://www.klaw-project.io/
+Kafbat;https://www.kafbat.io/
 ## HTTP Access
 Strimzi Kafka Bridge;https://strimzi.io/docs/bridge/latest/
 Confluent REST Proxy;https://docs.confluent.io/platform/current/kafka-rest/index.html
@@ -132,3 +134,4 @@ Karapace Schema Registry;https://www.karapace.io/
 ## Kafka Proxies
 Conduktor Gateway;https://docs.conduktor.io/guide/conduktor-in-production/deploy-artifacts/deploy-gateway
 Kroxylicious;https://kroxylicious.io
+Gravitee Kafka Gateway;https://www.gravitee.io/platform/kafka-gateway
