@@ -3,6 +3,7 @@
 Kafka Summit / Current Sessions;https://www.kafka-summit.org/past-events
 ## Newsletters
 Kafka Monthly Digest;https://developers.redhat.com/author/mickael-maison
+2 Minute Streaming;https://blog.2minutestreaming.com/
 ## Blog Posts
 The Log: What every software engineer should know...;https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
 Why Kafka Is so Fast;https://medium.com/swlh/why-kafka-is-so-fast-bde0d987cd03
@@ -15,6 +16,7 @@ Streaming Systems;http://streamingsystems.net/
 Designing Event-Driven Systems;https://www.oreilly.com/library/view/designing-event-driven-systems/9781492038252/
 Kafka In Action;https://www.manning.com/books/kafka-in-action
 Kafka Connect;https://www.oreilly.com/library/view/kafka-connect/9781098126520/
+Apache Kafka In Action;https://www.manning.com/books/apache-kafka-in-action
 ## Tutorials & Examples
 Kafka Tutorials;https://developer.confluent.io/tutorials/
 Confluent Examples;https://github.com/confluentinc/examples/
@@ -54,11 +56,13 @@ MicroProfile Reactive Messaging;https://download.eclipse.org/microprofile/microp
 Alpakka Kafka;https://doc.akka.io/docs/alpakka-kafka/current/
 ## IDEs
 VS Code Tools for Apache Kafka;https://github.com/jlandersen/vscode-kafka
-
+IDEA Kafka Plugin;https://www.jetbrains.com/help/idea/big-data-tools-kafka.html
+Confluent for VS Code;https://github.com/confluentinc/vscode
 # Integrate
 ## Replication
 Mirus;https://github.com/salesforce/mirus
 MirrorMaker;https://kafka.apache.org/documentation.html#georeplication
+Lenses K2K;https://lenses.io/kafka-replication/
 ## Change Data Capture
 Debezium;https://debezium.io/
 Maxwell Daemon;http://maxwells-daemon.io/
@@ -113,7 +117,7 @@ Koperator;https://github.com/banzaicloud/koperator
 ### Strimzi
 Strimzi;https://strimzi.io/
 Strimzi CLI;https://pypi.org/project/strimzi-kafka-cli/
-AMQ Streams;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/2.7
+AMQ Streams;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/
 ## UIs
 Redpanda Console;https://github.com/redpanda-data/console
 Karamel;https://github.com/mgubaidullin/karamel
