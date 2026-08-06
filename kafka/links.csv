@@ -116,7 +116,7 @@ Confluent Operator;https://docs.confluent.io/operator/current/overview.html
 Koperator;https://github.com/banzaicloud/koperator
 ### Strimzi
 Strimzi;https://strimzi.io/
-Strimzi CLI;https://pypi.org/project/strimzi-kafka-cli/
+Strimzi CLI;https://strimzi-cli.dev
 AMQ Streams;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/
 ## UIs
 Redpanda Console;https://github.com/redpanda-data/console
