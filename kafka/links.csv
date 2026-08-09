@@ -94,6 +94,7 @@ IBM Event Streams;https://www.ibm.com/products/event-streams
 Amazon MSK;https://aws.amazon.com/msk/
 CloudKarafka;https://www.cloudkarafka.com/
 Azure HDInsight Kafka;https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction
+Google Cloud Managed Service for Apache Kafka;https://cloud.google.com/products/managed-service-for-apache-kafka
 ## Tools
 kafka-backup;https://github.com/itadventurer/kafka-backup
 CMAK;https://github.com/yahoo/CMAK
