@@ -94,6 +94,7 @@ IBM Event Streams;https://www.ibm.com/products/event-streams
 Amazon MSK;https://aws.amazon.com/msk/
 CloudKarafka;https://www.cloudkarafka.com/
 Azure HDInsight Kafka;https://learn.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction
+Google Cloud Managed Service for Apache Kafka;https://cloud.google.com/products/managed-service-for-apache-kafka
 ## Tools
 kafka-backup;https://github.com/itadventurer/kafka-backup
 CMAK;https://github.com/yahoo/CMAK
@@ -116,13 +117,14 @@ Confluent Operator;https://docs.confluent.io/operator/current/overview.html
 Koperator;https://github.com/banzaicloud/koperator
 ### Strimzi
 Strimzi;https://strimzi.io/
-Strimzi CLI;https://pypi.org/project/strimzi-kafka-cli/
+Strimzi CLI;https://strimzi-cli.dev
 AMQ Streams;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/
 ## UIs
 Redpanda Console;https://github.com/redpanda-data/console
 Karamel;https://github.com/mgubaidullin/karamel
 Kafdrop;https://github.com/obsidiandynamics/kafdrop
 AKHQ;https://github.com/tchiotludo/akhq
+Lenses; https://docs.lenses.io/latest
 Conduktor Console;https://docs.conduktor.io/platform/#what-is-conduktor-console
 Klaw;https://www.klaw-project.io/
 Kafbat;https://www.kafbat.io/
@@ -139,3 +141,4 @@ Karapace Schema Registry;https://www.karapace.io/
 Conduktor Gateway;https://docs.conduktor.io/guide/conduktor-in-production/deploy-artifacts/deploy-gateway
 Kroxylicious;https://kroxylicious.io
 Gravitee Kafka Gateway;https://www.gravitee.io/platform/kafka-gateway
+Kong Event Gateway;https://developer.konghq.com/event-gateway/get-started/
